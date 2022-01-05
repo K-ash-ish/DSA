@@ -2,27 +2,24 @@
 using namespace std;
 
 int guessNumber(int n){
-    int pick ;
-    cin>> pick;
-    int start =0, end = n, mid;
-    int ans , check;
-    while(start < end){
-        mid = start + (end - start )/2;
-         if (mid < pick){
-            start = mid + 1;
-        }
-        else if( mid > pick){
-            end = mid -1;
-        }
-        else{
-            return mid;
-        }
-    }
-    if (pick > mid){
-        return 1;
-    }
-    else return -1;
-
+   int target;
+   cin>> target;
+   int start = 1, end = n, mid;
+   int ans ;
+   while( start <= end){
+       mid = start + (end - start)/2;
+       if (mid == target){
+           return mid;
+       }
+       else if( mid < target){
+           start = mid +1;
+       }
+       else{
+           end = mid - 1;
+       }
+       
+   }
+   return 0;
 }
 
 int main (){
