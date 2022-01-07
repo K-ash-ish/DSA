@@ -21,13 +21,10 @@ int searchRange(int (&a)[N], int target) {
             return ans;
         }
     }
-    ans.push_back(-1);
-    ans.push_back(-1);
     return ans;
 }
 
 int main(){
     int nums[6] = {5,7,7,8,8,10};
     vector<int> ans = searchRange(nums, 8);
-    cout<<ans;
 }
