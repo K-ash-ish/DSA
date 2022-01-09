@@ -35,8 +35,7 @@ using namespace std;
 
 
 // faster one 
-int sqrt(int a){
-    cout<<INT16_MAX;
+int sqrt(int a){    cout<<INT16_MAX;
 
 }
 
