@@ -11,8 +11,6 @@ int main(){
 }
 
 
-
-
 // vector way
 // int binarySearch(vector<int>& a, int target){
 //     for(int x : a){
