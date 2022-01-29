@@ -7,7 +7,7 @@ template <size_t N>
 
 int main(){
     int a[5] = {3,5,7,8,9};
-    cout<<binarySearch(a, 7);
+    cout<<binarySearch(a, 7);;
 }
 
 
