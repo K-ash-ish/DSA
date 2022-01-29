@@ -1,10 +1,12 @@
 #include<iostream>
 using namespace std;
 void print(int arr[]){
-    cout<<sizeof(arr);
+    // cout<<arr[0];
 }
 int main (){
-    int arr = [1,2,34,4];
-    cout<<"Insde main size "<<sizeof(arr)<<endl;
+    int arr = [1,2,3,4];
+    for(x : arr){
+        cout<<" " << x ;
+    }
     print(arr);
 }
