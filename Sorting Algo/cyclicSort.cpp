@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int cyclicSort(int arr[], int size){
     int i=0;
     while(i< size){
@@ -28,3 +27,4 @@ int main(){
         cout<<x<<" ";
     }
 }
+
